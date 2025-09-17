@@ -101,7 +101,7 @@ endmodule
 ### JK Flip-Flop Test bench 
 ```verilog
 `timescale 1ns / 1ps
-module tb_SRFF;
+module tb_JKFF;
 reg j,k,clk,rst;
 wire q;
 JKFF uut(j,k,clk,rst,q);
