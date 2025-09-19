@@ -136,7 +136,7 @@ begin
 if(rst==1)
     q=0;
  else 
-    q=q;
+    q=d;
 end
 endmodule
 ```
@@ -165,7 +165,8 @@ endmodule
 
 #### SIMULATION OUTPUT
 
-<img width="1918" height="1078" alt="Screenshot 2025-09-17 092131" src="https://github.com/user-attachments/assets/9e21f3b3-5950-4e22-bbe8-d009dfe3e60d" />
+<img width="1906" height="1079" alt="Screenshot 2025-09-19 111235" src="https://github.com/user-attachments/assets/c4988a04-f050-46f3-a14d-413527f34312" />
+
 
 ### T Flip-Flop (Blocking)
 ```verilog
